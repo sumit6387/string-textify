@@ -1,0 +1,22 @@
+{
+  "name": "string-textify",
+  "version": "1.0.1",
+  "description": "A React component to render formatted strings (bold, italic, links, code, etc.)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["react", "formatter", "markdown", "text", "richtext","string-textify", "textify"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
+  }
+}
