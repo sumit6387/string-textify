@@ -9,7 +9,7 @@ const Textify: React.FC<Props> = ({ children }) => {
   const tokens = parseFormattedText(children);
 
   return (
-    <>
+    <div style={{ whiteSpace: 'pre-wrap' }}>
       {tokens.map((token, idx) => {
         switch (token.type) {
           case 'bold':
@@ -50,7 +50,7 @@ const Textify: React.FC<Props> = ({ children }) => {
             return <span key={idx}>{token.content}</span>;
         }
       })}
-    </>
+    </div>
   );
 };
 
