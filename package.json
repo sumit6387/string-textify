@@ -1,6 +1,6 @@
 {
   "name": "string-textify",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A React component to render formatted strings (bold, italic, links, code, etc.)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

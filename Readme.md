@@ -80,6 +80,3 @@ textify/
 ## 🪪 License
 MIT © Sumit Kumar
 
----
-
-Let me know if you'd like me to include example images/screenshots or badge links (like version, license, install) at the top too!
